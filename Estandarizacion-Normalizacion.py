@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Oct  2 19:48:09 2024
-
-@author: KevinRosero
+KevinRosero
 
 """
 
