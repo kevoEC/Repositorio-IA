@@ -1,13 +1,17 @@
 # -*- coding: utf-8 -*-
 """
 Kevin Rosero
+"""
 
+"""
 Métodos para construir modelos multivariable:
     - Exhaustivo: Usar todas las variables en el modelo.
     - Eliminación hacia atrás: Quitar variables con p-valor alto hasta que todas cumplan.
     - Selección hacia adelante: Agregar variables con p-valor bajo hasta el límite.
     - Eliminación bidireccional: Combina eliminación hacia atrás y adelante.
     - Comparación de Scores: Selección del mejor modelo usando el criterio de Akaike.
+
+  """  
 
 ## Análisis de startups para decidir inversión según criterios y analizar relación entre ganancias y ubicación
 ## Predicción de ingresos de la empresa (Y)
