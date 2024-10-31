@@ -5,10 +5,10 @@ Created on Wed Oct 23 19:14:22 2024
 @author: KevinRosero
 """
 
-## Importar las librearías
-import numpy as np ## Libraría para tratamiento de números y herramientas matemáticas (np Alias)
-import matplotlib.pyplot as plt  ## Librería para representación gráfica (pyplot es una sublibrearía - gráficos) (plt Alias)
-import pandas as pd  ## Librería para manipular datos (pd Alias)
+## Importación de librerías
+import numpy as np  # Para operaciones numéricas
+import matplotlib.pyplot as plt  # Para gráficos
+import pandas as pd  # Para manipulación de datos
 
 dataset  = pd.read_csv("Position_Salaries.csv")
 
