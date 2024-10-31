@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Oct 23 19:14:22 2024
-
-@author: KevinRosero
+KevinRosero
 """
 
 ## Importación de librerías
