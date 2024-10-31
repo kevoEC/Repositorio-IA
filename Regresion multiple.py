@@ -1,26 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed Oct-16  18:14:30 2024
+Kevin Rosero
 
-@author: Kevin Rosero
-
-MULTIPLE LINEAR REGRESSION
-Restricciones:
-    - Linealidad
-    - Homocedasticidad
-    - Normalidad multivariable
-    - Independencia de errores
-    - Ausencia de multicolinealidad (si hay más de una variable dummy, eliminar una)
-"""
-
-'''
 Métodos para construir modelos multivariable:
     - Exhaustivo: Usar todas las variables en el modelo.
     - Eliminación hacia atrás: Quitar variables con p-valor alto hasta que todas cumplan.
     - Selección hacia adelante: Agregar variables con p-valor bajo hasta el límite.
     - Eliminación bidireccional: Combina eliminación hacia atrás y adelante.
     - Comparación de Scores: Selección del mejor modelo usando el criterio de Akaike.
-'''
 
 ## Análisis de startups para decidir inversión según criterios y analizar relación entre ganancias y ubicación
 ## Predicción de ingresos de la empresa (Y)
